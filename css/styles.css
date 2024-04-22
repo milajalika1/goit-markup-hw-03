@@ -29,6 +29,7 @@ button {
 }
 img {
   display: block;
+
 }
 .container {
   max-width: 1158px;
@@ -49,8 +50,8 @@ img {
 .main-navigation {
   display: flex;
   column-gap: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  align-items: center;
+  
 }
 .menu-navigation {
   display: flex;
@@ -80,6 +81,8 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -93,20 +96,18 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
-}
+color: #434455}
+  
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
 }
 /* ---Main content--- */
-
 .main-section {
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
 }
-
 .main-title {
   font-weight: 700;
   font-size: 56px;
