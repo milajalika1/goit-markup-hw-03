@@ -54,6 +54,9 @@ img {
 }
 
 /* ----header----- */
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .page-header-container {
   display: flex;
   justify-content: space-between;
@@ -62,16 +65,15 @@ img {
 }
 .main-navigation {
   display: flex;
-  column-gap: 76px;
   align-items: center;
 }
 .menu-navigation {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .menu-address {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -81,6 +83,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
+
 }
 .logo-part {
   font-family: "Raleway", sans-serif;
@@ -160,7 +164,7 @@ img {
 }
 .features-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 .features-title {
   font-weight: 700;
@@ -223,10 +227,11 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 .team-desc {
   font-weight: 400;
